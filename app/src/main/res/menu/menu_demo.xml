@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemOne"
+        android:icon="@drawable/icon_menu"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemTwo"
+        android:title="@string/item_2" />
+    <item
+        android:id="@+id/itemThree"
+        android:title="@string/item_3">
+        <menu>
+            <item
+                android:id="@+id/item3_1"
+                android:icon="@drawable/exit_app"
+                android:title=""
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itemFour"
+        android:title="@string/item_4"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/subItem4_1"
+                android:title="@string/sub_item4_1" />
+            <item
+                android:id="@+id/subItem4_2"
+                android:icon="@drawable/ic_sub_item"
+                android:title=""
+                app:showAsAction="ifRoom" />
+
+        </menu>
+    </item>
+</menu>

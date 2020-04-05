@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageToast"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:src="@drawable/ic_textsms" />
+
+    <TextView
+        android:id="@+id/textViewToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast by RD ROCK"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="25sp" />
+
+</LinearLayout>

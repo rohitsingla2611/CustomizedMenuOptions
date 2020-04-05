@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Customized Menu Options</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Exit App</string>
+    <string name="item_4">Further Sub Items</string>
+    <string name="sub_item4_1">Sub Item 1</string>
+</resources>
